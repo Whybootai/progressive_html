@@ -1,22 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Tool: Analyze & Generate</title>
-    
 </head>
-
 <body>
-    <!-- Dark/Light Mode Toggle -->
-    <div id="theme-toggle" onclick="toggleTheme()">🌙</div>
-
-    <header>
-        <h1>HTML Tool: Analyze & Generate</h1>
-    </header>
-    <main>
-        <!-- HTML Analyzer Section -->
+<header><h1>HTML Tool: Analyze &amp; Generate</h1></header>
+<main><!-- HTML Analyzer Section -->
         <section id="analyzer">
             <h2>HTML Analyzer</h2>
             <textarea id="html-input" rows="8" placeholder="Paste your HTML code here"></textarea>
@@ -31,7 +20,7 @@
         <!-- HTML Generator Section -->
         <section id="generator">
             <h2>HTML Generator</h2>
-            <input type="text" id="page-title" placeholder="Enter page title" />
+            <input type="text" id="page-title" placeholder="Enter page title">
             <textarea id="header-content" rows="4" placeholder="Enter header content"></textarea>
             <textarea id="main-content" rows="6" placeholder="Enter main content"></textarea>
             <textarea id="footer-content" rows="4" placeholder="Enter footer content"></textarea>
@@ -43,14 +32,8 @@
             </div>
             <div id="copy-output"><a onclick="copyGeneratedHTML()" id="copy-link">Copy</a></div>
             <h3>Generated HTML:</h3>
-            <textarea id="output" rows="10" readonly></textarea>
-        </section>
-    </main>
-    <footer>
-        <p>© 2025 HTML Tool. All rights reserved.</p>
-    </footer>
-
-    
+            <textarea id="output" rows="10" readonly=""></textarea>
+        </section></main>
+<footer><p>© 2025 HTML Tool. All rights reserved.</p></footer>
 </body>
-
 </html>
